@@ -1,0 +1,4 @@
+services:
+#    gps_api_administration.example:
+#        class: GpsApi\AdministrationBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

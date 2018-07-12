@@ -1,3 +1,11 @@
+gps_api_administration:
+    resource: "@GpsApiAdministrationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gps_api_espace_user:
+    resource: "@GpsApiEspaceUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

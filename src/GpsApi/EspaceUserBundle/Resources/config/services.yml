@@ -1,0 +1,4 @@
+services:
+#    gps_api_espace_user.example:
+#        class: GpsApi\EspaceUserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
