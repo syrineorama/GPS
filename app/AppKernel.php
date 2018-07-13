@@ -19,9 +19,12 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new GpsApi\EspaceUserBundle\GpsApiEspaceUserBundle(),
             new GpsApi\AdministrationBundle\GpsApiAdministrationBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
             new FOS\RestBundle\FOSRestBundle(),
-            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new Nelmio\CorsBundle\NelmioCorsBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
